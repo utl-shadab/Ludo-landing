@@ -1,0 +1,314 @@
+@media (max-width: 991px) {
+    .offcanvas.offcanvas-end.open {
+        right: 320px;
+        visibility: visible;
+        width: 320px;
+    }
+    #header {
+        padding-bottom: 0;
+    }
+    #header.fix .nav-link {
+        color: #fff;
+    }
+    .home-page #header .offcanvas .navbar-brand img {
+        filter: invert(0)
+    }
+    #header .offcanvas .navbar-brand img {
+        filter: invert(0)
+    }
+    .navbar-brand {
+        margin: auto;
+    }
+    .navbar-nav {
+        align-items: flex-start;
+    }
+    .navbar-toggler {
+        position: absolute;
+        right: 10px;
+        top: 16px;
+    }
+    .offcanvas {
+        background-color: #080404;
+        transition: all .4s;
+    }
+    .offcanvas .btn-close {
+        position: absolute;
+        right: 24px;
+        top: 38px;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        opacity: 1;
+        background-color: #fff;
+    }
+    #header .nav-link {
+        color: #EDEEE9;
+        text-align: left;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 45px;
+        margin: 0;
+    }
+    .custom-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .d-lg-none.bottom-0.mb-3.position-absolute.text-center {
+        width: 90%;
+    }
+    .about_col_text {
+        padding-left: 12px;
+    }
+}
+
+@media (max-width: 767px) {
+    .reverse {
+        flex-direction: column-reverse;
+    }
+    #header .nav-link:is(.active, :hover) {
+        color: #FFF;
+    }
+    .collection-sec,
+    section {
+        padding: 40px 0;
+    }
+    h2 {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .new h2 {
+        color: #080404;
+        font-family: "Opti-baker";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+    }
+    .btn {
+        padding: 11px 36px;
+    }
+    .navbar-brand img {
+        max-width: 107px;
+    }
+    .hero-section h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .hero-section {
+        min-height: 350px;
+    }
+    .collection-bg {
+        min-height: 50vh;
+    }
+    .collection-text {
+        right: 20px;
+        bottom: 30px;
+        color: #fff;
+    }
+    .about-title,
+    .collection-text p {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    /* .about-sec img {
+        max-width: 248px;
+    } */
+    .about-head {
+        font-size: 24px;
+        line-height: 30px;
+        padding: 6px 13px;
+        right: auto;
+    }
+    .product-slider {
+        max-height: 280px;
+    }
+    .product-slider .slick-center {
+        width: 230px !important;
+    }
+    .product-slider img {
+        height: 280px;
+    }
+    .brand-logos img {
+        width: 80px;
+    }
+    .contact-sec {
+        padding-bottom: 0;
+    }
+    .custom-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contact-sec .d-line {
+        display: none;
+    }
+    .get-in-touch-wrapper,
+    .contact-wrapper {
+        margin: 0 !important;
+        padding-block: 30px;
+        position: relative;
+    }
+    .contact-wrapper p {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .gap-5 {
+        gap: 1rem !important;
+    }
+    .get-in-touch-wrapper p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .contact-wrapper h3 {
+        margin-bottom: 10px;
+    }
+    .mob-line .col-md-6 .get-in-touch-wrapper::before,
+    .mob-line .col-md-6 .contact-wrapper::before {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: -5%;
+        width: 108%;
+        height: 2px;
+        background-color: #080404;
+    }
+    .mob-line .col-md-6 .get-in-touch-wrapper:last-child::before {
+        display: none;
+    }
+    .founder-head {
+        right: unset;
+        left: 0;
+    }
+    .slide-card {
+        margin: 10px;
+    }
+    #pills-tab.nav-pills {
+        justify-content: space-between !important;
+    }
+    #pills-tab.nav-pills .nav-link {
+        margin: 0;
+    }
+    #pills-tab.nav-pills .nav-item:not(:last-child) .nav-link {
+        margin-right: 10px;
+    }
+    .thumbnail-img img {
+        width: 70px;
+        height: 70px;
+    }
+    .footer-logo {
+        order: 1;
+    }
+    .footer-copyright {
+        order: 2;
+    }
+    .custom-margin {
+        margin-top: 7vw;
+    }
+    .slide-card {
+        padding: 25px 20px;
+    }
+}
+
+@media (min-width: 451px) and (max-width:766px) {
+    .thumbnail-img img {
+        width: 89%;
+        gap: 1px;
+        display: block;
+        margin: 6px 36px;
+        /* margin-left: 60px; */
+        height: 130px;
+    }
+    .custom-margin {
+        margin-top: 7vw;
+    }
+    .about-title,
+    .collection-text p {
+        font-size: 31px;
+        line-height: 35px;
+    }
+    .product-slider img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .main-head h1 {
+        font-size: 37px;
+        line-height: 40px;
+    }
+    .collection-text p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .custom-margin {
+        margin-top: 7vw;
+    }
+    .product-slider img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .product-slider {
+        max-height: 500px;
+    }
+    .btn {
+        padding: 12px 14px;
+        margin: auto;
+    }
+    .about-head {
+        left: 12px;
+    }
+    .slick-slide img:last-child {
+        margin-top: 10px !important;
+    }
+    .thumbnail-img img {
+        width: 89%;
+        gap: 1px;
+        display: block;
+        margin: 6px 36px;
+        /* margin-left: 60px; */
+        height: 130px;
+    }
+    .brand-logos img {
+        width: 120px;
+    }
+    .swiper-button-next {
+        font-size: 15px;
+        width: 10px;
+        height: 10px;
+        line-height: 1;
+        color: #ede8e8 !important;
+        position: absolute;
+        top: 80%;
+        left: 18% !important;
+    }
+    .swiper-button-prev {
+        font-size: 15px;
+        width: 10px;
+        height: 10px;
+        line-height: 1;
+        color: #ede8e8 !important;
+        position: absolute;
+        top: 80%;
+        left: 10% !important;
+    }
+}
+
+@media (min-width: 300px) and (max-width:380px) {
+    .thumbnail-img img {
+        width: 100%;
+        gap: 1px;
+        display: block;
+        margin: 6px 81px;
+        /* margin-left: 60px; */
+        height: 113px;
+    }
+    .brand-logos {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+}

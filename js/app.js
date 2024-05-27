@@ -43,7 +43,10 @@ class MyHeader extends HTMLElement {
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
               <div class="offcanvas-body align-items-center">
-                  <ul class="navbar-nav ">
+                  <ul class="navbar-nav d-flex justify-content-between">
+                 <div><a class="navbar-brand d-none d-lg-block" href="./index.html">
+                 <img src="./img/logo.png" alt="Logo" />
+                 </a></div>   
                       <li class="nav-item ">
                           <a class="nav-link" href="./#">Our Collections</a>
                       </li>
@@ -61,9 +64,7 @@ class MyHeader extends HTMLElement {
                           <a class="nav-link" href="#" target="_blank">Download Our App</a>
                       </li>
                       
-                      <a class="navbar-brand d-none d-lg-block" href="./index.html">
-                          <img src="./img/logo.png" alt="Logo" />
-                      </a>
+                     
                      
                   </ul>
                   
@@ -196,7 +197,7 @@ $(".product-slider").slick({
     arrow: true,
     infinite: false,
     speed: 300,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: false,
     autoplaySpeed: 2000,
@@ -205,7 +206,7 @@ $(".product-slider").slick({
     responsive: [{
             breakpoint: 1200,
             settings: {
-                slidesToShow: 3,
+                slidesToShow: 1,
                 arrows: true,
                 slidesToScroll: 1,
                 slidesToScroll: 1,
@@ -215,7 +216,7 @@ $(".product-slider").slick({
         {
             breakpoint: 1024,
             settings: {
-                slidesToShow: 3,
+                slidesToShow: 1,
                 slidesToScroll: 1,
                 infinite: false,
             },
@@ -223,7 +224,7 @@ $(".product-slider").slick({
         {
             breakpoint: 600,
             settings: {
-                slidesToShow: 2,
+                slidesToShow: 1,
             },
         },
         {
